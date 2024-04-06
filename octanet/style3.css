@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+header{ 
+    width: 100%;
+    height: 60px;
+  background-color: rgb(158, 155, 155);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+header h2 span{
+    color: rgb(180, 27, 27);
+}
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+header li,button{
+    font-weight: 600;
+}
+header button{ background-color: brown;
+}
+.class1{
+    width: 100%;
+    height: 400px;
+  font-size: large;
+    padding: 70px;
+    display: flex;
+    gap: 3em;
+}
+.content1{
+    padding: 30px;
+    padding-right: 10px;
+}
+.content1 span{
+    color: rgb(226, 9, 9);
+    opacity: 1;
+}
+.content1 span:hover{
+color: rgb(113, 43, 145);
+opacity: 3;
+transition: 0.2s;
+}
+.button1 button{
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: brown;
+}
+.button1 button:hover{
+    background-color: blueviolet;
+}
+
+.image1 img{
+width: 250px;
+border-radius: 50%;
+}
+marquee{
+    padding-bottom: 20px;
+}
+marquee span{
+    color: rgb(197, 98, 18);
+    text-decoration: underline;
+}
+.famous{
+    height: 200px;
+    display: flex;
+    gap: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.famous img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+   transition: all ease 0.5s;
+    cursor: pointer;
+}
+.famous img:hover{
+    width: 100%;
+}
+
+.imp{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+   background-color:white;
+padding-left: 200px;
+padding-right: 200px;
+
+}
+.imp h2{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.class2{
+  width: 100%;  
+padding: 10px;
+padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+background-color:white;
+border-bottom: 3px solid rgb(211, 202, 202);
+box-shadow: 1px 5px 10px ;
+    display: flex;
+    gap: 3em;
+} 
+.content2{
+    width: 100%;
+padding: 20px;
+}
+.class2 .image2 img{
+    padding-top: 10px;
+    border-radius: 10%;
+    
+}
+.image2 a{
+    display: flex;
+    justify-content: center;
+   }
+  .image2 button{
+    border-radius: 5px;
+    border-color: rgb(31, 137, 186);
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color:rgb(239, 233, 233);
+    }
+
+ .beverages{
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    background-color: white;
+padding-left: 200px;
+padding-right: 200px;
+ }
+ .beverages h2{
+    padding-bottom: 10px ;
+ }
+ .class7{
+    width: 100%;  
+  padding: 10px;
+  padding-left: 20px;
+      padding-right: 20px;
+      height: 150px;
+ background-color: white;
+border: 1px solid rgb(156, 152, 152);
+      display: flex;
+      gap: 3em;
+      border-bottom: 3px solid rgb(211, 202, 202);
+      box-shadow: 1px 5px 10px ;
+  } 
+  .content7{
+      width: 100%;
+  padding: 20px;
+  }
+  .class7 .image7 img{
+      padding-top: 10px;
+      border-radius: 10%; 
+  }
+  .image7 a{
+    display: flex;
+    justify-content: center;
+   }
+  .image7 button{
+    border-radius: 5px;
+    border-color: rgb(31, 137, 186);
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color:rgb(239, 233, 233);
+    }
+  
+  footer{
+    background-color: rgb(158, 155, 155);
+    width: 100%;
+    height: 100px;
+  }
+  .footer1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 10px;
+   padding-top: 15px;
+   
+  }
+  .footer1 i:hover{
+    color: blue;
+  }
+  .footer2 ul{
+    display: flex;
+    justify-content: center;
+}
+.footer2 ul li{
+    display: inline-block;
+ margin: 20px;
+    opacity: 1;
+    transition: 0.3s;
+}
+.footer2 ul li:hover{
+opacity: 2;
+color: rgb(147, 79, 147);
+}
+
